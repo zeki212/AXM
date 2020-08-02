@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  /* color: #fff; */
+  font-size: 14px;
+  user-select: none;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+  pointer-events: none;
+}
+i,
+em {
+  font-style: normal;
+}
+a {
+  word-wrap: break-word;
+  color: #6D3CF5;
+}
+.main_color {
+  color: #6D3CF5 !important;
+}
+.font_color {
+  color: #333333 !important;
+}
+.main_bg {
+  background-color: #fff !important;
+}
+.red_color {
+  color: #FF3F3F !important;
+}
+.text_hide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text_hide_two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.no_data {
+  margin: 50px auto 0;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 15px;
+}
+.no_data i {
+  font-size: 100px;
+  display: block;
+  padding-bottom: 30px;
+}
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  color: #464F66;
+}
+.header_box + div {
+  position: absolute;
+  width: 100%;
+  top: 11vw;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #fff;
+}
+.footer_btn {
+  bottom: 0;
+  position: fixed !important;
+  width: 100%;
+  background-color: #fff;
+  z-index: 200;
+}
+.footer_btn button {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 4px;
+  background: -webkit-linear-gradient(#fca6a6, #d30000);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#fca6a6, #d30000);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#fca6a6, #d30000);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(#fca6a6, #d30000);
+  /* 标准的语法 */
+}
+.common_btn {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 50px auto 10px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.butBot {
+  margin-bottom: 65px;
+}
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pay_popup {
+  width: 100%;
+  background: #fff;
+  height: 360px;
+}
+.pay_popup .pay_popup_title {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+.pay_popup .pay_popup_title i {
+  max-width: 50px;
+  text-align: center;
+  flex: 1;
+  font-size: 24px;
+}
+.pay_popup .pay_popup_title div {
+  flex: 1;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+.pay_popup .van-number-keyboard {
+  position: absolute!important;
+}
+.margin_top_8 {
+  margin-top: 8px;
+}
+.tip {
+  padding: 10px 15px;
+  color: #FF3F3F;
+  font-size: 12px;
+}
+.float_right {
+  float: right;
+}

@@ -1,0 +1,140 @@
+@import "./config";
+
+.van-popup{
+  background-color: @bgColor;
+}
+[class*=van-hairline]::after{
+  // border-color:@lineColor;
+}
+.van-cell-group{
+  background-color:@blockColor;
+}
+.van-cell{
+  align-items: center;
+  background-color:@blockColor;
+  color:#fff;
+}
+.van-cell--clickable:active {
+  background-color: #172546;
+}
+.van-cell:not(:last-child):after{
+  border-color:@lineColor;
+}
+.van-field__control{
+  color: #fff;
+}
+.van-swipe__indicator {
+  border-radius:1pt!important;
+  width: 18px!important;
+  height: 2px!important;
+}
+.van-swipe__indicator--active {
+  background-color: #fff!important;
+}
+.van-toast{
+  z-index: 99999999;
+  background:#EE281C;
+  width: 80%;
+  font-size: 3.5vw!important;
+  line-height: 4.5vw!important;
+  height: 4.5vw!important;
+  padding: 2vw 3vw!important;
+}
+.van-dialog{
+  background-color: #00b59b;
+  .van-button{
+    background-color: #00b59b;
+  }
+  .van-dialog__message{
+    color: #fff;
+    font-size: 3.5vw;
+  }
+  .van-button--default{
+    color: #fff;
+  }
+  .van-dialog__confirm{
+    color: #fff;
+  }
+}
+.van-dialog__header {
+  color: #fff!important;
+}
+.van-progress {
+  height: 7px;
+  background: #1A1C4B;
+}
+.van-progress__pivot {
+  display: none;
+}
+
+.van-button--large{
+  height: 12vw;
+  line-height: 12vw;
+  letter-spacing: 2px;
+  font-size: 4vw;
+}
+.van-button--primary{
+  background: -webkit-linear-gradient(rgb(252, 166, 166), #ff2c2b); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgb(252, 166, 166), #ff2c2b); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgb(252, 166, 166), #ff2c2b); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgb(252, 166, 166), #ff2c2b); /* 标准的语法 */
+  color: #fff;
+  border: none;
+}
+
+.van-actionsheet{
+  background-color: @bgColor;
+}
+.van-actionsheet__cancel::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.van-actionsheet__cancel, .van-actionsheet__item{
+  background-color: @blockColor;
+  color: #fff;
+}
+.van-actionsheet__cancel:active, .van-actionsheet__item:active{
+  background-color: @bgColor;
+}
+
+
+/* 密码框 */
+.van-key::after {
+  border-width: 1px 1px 0 0;
+}
+.van-key--gray {
+  // background-color: #000000;
+}
+.van-key--active {
+  // background-color: #000000;
+}
+.van-number-keyboard{
+  // background-color: #081432;
+}
+.van-password-input__security{
+  background-color: @bgColor;
+}
+.van-password-input__security i{
+  background-color: #333;
+}
+
+/* mintui picker */
+.mint-indicator-wrapper,.mint-indicator-mask,.mint-indicator-wrapper{
+  z-index: 99999!important;
+  background: rgba(0, 0, 0, 0)!important;
+}
+.mint-spinner-fading-circle > div::before{
+  background-color: @mainColor!important;
+}
+
+.van-tabs--card .van-tabs__wrap {
+  height: 40px;
+}
+.van-tabs__nav--card {
+  height: 40px;
+}
+.van-tabs--card {
+  padding-top: 40px;
+}
+.van-tabs__nav--card .van-tab {
+  line-height: 40px;
+}
